@@ -1,5 +1,13 @@
+:root{
+    --green: #00f000; 
+    --white: #ffffff;
+    --black: #000;
+}
+
 body{
     font-family: 'Courier New', Courier;
+    background: var(--bg);
+    color: var(--fontColor);
 }
 
 ul{
@@ -15,4 +23,18 @@ li{
 
 #msg{
     font-family: monospace;
+}
+
+.lightTheme{
+    --bg: (var(--green));
+    --fontColor: (var(--black));
+
+
+}
+
+.darkTheme{
+    --bg: var(--black);
+    --fontColor: var(--green);
+
+
 }
