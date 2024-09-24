@@ -2,6 +2,8 @@
     --green: #00f000; 
     --white: #ffffff;
     --black: #000;
+    --red: #b50707;
+
 }
 
 body{
@@ -28,6 +30,7 @@ li{
 .lightTheme{
     --bg: (var(--green));
     --fontColor: (var(--black));
+    --btnColor: var(--black);
 
 
 }
@@ -35,6 +38,20 @@ li{
 .darkTheme{
     --bg: var(--black);
     --fontColor: var(--green);
+    --btnColor: var(--red);
+
+
+}
+
+.btn{
+    color: var(--btnColor);
+    position: absolute;
+    top: 20px; 
+    left: 250px; 
+    height: 50px; 
+    width: 50px; 
+    border-radius: 50%;
+    border: none; 
 
 
 }
